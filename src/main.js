@@ -87,7 +87,7 @@ scene.add(light1);
 const light2 = new THREE.AmbientLight(0x777777);
 scene.add(light2);
 
-const asteroidTexture = loader.load('/asteroids.jpg');
+const asteroidTexture = loader.load('asteroids.jpg');
 
 for (let i = 0; i < 4; i++) {
   const astGeo = new THREE.DodecahedronGeometry(0.4, 1);
