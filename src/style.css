@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('/bg1.jpg');
+  background-position: center center;
+  background-attachment: fixed;
+  background-color: #020617;
+  background-size: cover;
+  color: #15076f;
+  padding: 20px;
+}
+
+.neon-title {
+  color: #00f3ff;
+  text-shadow: 0 0 8px #00f3ff, 0 0 15px #00f3ff;
+  margin-bottom: 15px;
+}
+
+.neon-text {
+  color: #00f3ff;
+  text-shadow: 0 0 5px #00f3ff;
+}
+
+#space-box {
+  width: 550px;
+  height: 420px;
+  border: 2px solid #00f3ff;
+  box-shadow: 0 0 15px rgba(0, 243, 255, 0.4);
+  background: rgba(0, 0, 0, 0.6);
+  cursor: grab;
+}
+
+#space-box:active {
+  cursor: grabbing;
+}
+
+.table-container {
+  max-height: 380px;
+  overflow-y: auto;
+  border: 1px solid #00f3ff;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+#asteroid-table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #ffffff;
+  text-align: left;
+}
+
+#asteroid-table th {
+  background-color: #00f3ff;
+  color: #000000;
+  padding: 8px;
+  font-weight: bold;
+}
+
+
+.table-row {
+  cursor: pointer;
+}
+
+.table-row:hover {
+  background-color: rgba(0, 243, 255, 0.25);
+  color: #00f3ff;
+}
+
+#info-fieldset {
+  margin-top: 20px;
+  width: 530px;
+  border: 2px solid #00f3ff;
+  background: rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0 10px rgba(0, 243, 255, 0.3);
+  padding: 12px;
+}
+
+#info-text {
+  color: #ffffff;
+  font-size: 1rem;
+  line-height: 1.5;
+}
