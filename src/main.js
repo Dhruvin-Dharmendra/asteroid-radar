@@ -56,7 +56,7 @@ function loadNASAData() {
     });
 }
 
-const earthTexture = loader.load('/earth.jpg');
+const earthTexture = loader.load('earth.jpg');
 const earthGeo = new THREE.SphereGeometry(3.5, 32, 32);
 const earthMat = new THREE.MeshPhongMaterial({ map: earthTexture });
 const earth = new THREE.Mesh(earthGeo, earthMat);
