@@ -1,4 +1,7 @@
 import * as THREE from 'three';
+import * as THREE from 'three';
+import earthImg from '../public/earth.jpg';
+import asteroidImg from '../public/asteroids.jpg';
 
 const API_KEY = import.meta.env.VITE_NASA_API_KEY || 'DEMO_KEY';
 const todayDate = new Date().toISOString().split('T')[0];
